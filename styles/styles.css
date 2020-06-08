@@ -2,12 +2,11 @@ body {
    font-family: 'source sans pro',sans-serif;
    margin:0px;
 }
-ol,
-ul {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-	color: white;
+
+
+.menu ol{
+    display: flex;
+    justify-content: space-between;
 }
 h1,
 h2,
@@ -28,10 +27,11 @@ h1 {
 h2 {
 	color: black
 	text-transform: uppercase;
-	font-family: 'Didact Gothic', sans-serif;
 	font-weight: bold;
 	font-size: 24px;
     margin: 40px;
+    font-family:  'Fjalla One', sans-serif;
+    text-transform:uppercase;    
 }
 
 h1 strong {
@@ -48,8 +48,38 @@ h1 strong {
 header{
     width: 100%;
     display:flex;
-    justify-content: center;
     background-color: white;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+  height: 90px; 
+}
+.menu-container a {
+text-decoration: none;
+color:black;
+height: inherit;
+font-size: 20px;
+font-family:  'Fjalla One', sans-serif;
+}
+ol,
+ul {
+	margin:20px;
+	padding: 0px;
+	list-style: none;
+  
+  
+}
+li{
+    margin: 5px;
+    eight: 25px;
+}
+li :hover{
+    color: coral;
 }
 
 .hero .container{
@@ -71,7 +101,6 @@ header{
 .portafolio{
     margin:15px;
     background-color:#fafafa;
-    padding: 20px;
 }
 .project{
     border: 1px solid grey;
@@ -80,7 +109,7 @@ header{
     padding: 20px;
     background-color: white;
     margin:15px;
-  
+   
 
 }
 
@@ -94,3 +123,20 @@ header{
 
 
 }
+figure{
+    margin:0
+}
+.footer{
+    background-color: #fafafa;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  width: 100%;
+  margin: 20px;
+}
+.footer img{
+    vertical-align: middle;
+}
+.footer p{
+    font-family:  'Fjalla One', sans-serif;
+} 
