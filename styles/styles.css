@@ -1,0 +1,96 @@
+body {
+   font-family: 'source sans pro',sans-serif;
+   margin:0px;
+}
+ol,
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+h1 {
+	font-size: 30px;
+	line-height: 1.5;
+	letter-spacing: -0.2px;
+    margin: 0;
+}
+
+h2 {
+	color: black
+	text-transform: uppercase;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+    margin: 40px;
+}
+
+h1 strong {
+	color:black;
+	font-size: 50px;
+}
+.project- details{
+    width: 500px;
+}
+.project-imgcontainer{
+  
+}
+
+header{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    width: 50%;
+    margin:0px  5px;
+    text-align: center;
+
+}
+.hero-image{
+    width: 50%;
+    margin:0px;
+}
+.portafolio{
+    margin:15px;
+    background-color:#fafafa;
+    padding: 20px;
+}
+.project{
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
+    margin:15px;
+  
+
+}
+
+.experience {
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin:15px;
+    padding:20px;
+    background-color: white;
+
+
+}
